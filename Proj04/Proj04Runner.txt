@@ -1,0 +1,11 @@
+This is an example of how a python doctest can use a .txt file to find simulated "correct" answers.
+
+ The below answers are intentionally incorrect to show that the doctest is indeed working
+
+
+
+>>> from Proj04 import getLen
+>>> 'Elena Stefanova'
+
+>>> getLen(['a','b','c'])
+4
